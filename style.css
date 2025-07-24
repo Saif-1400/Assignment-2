@@ -158,20 +158,21 @@ nav ul li{
 }
 .join button{
 
-    padding: 10px 25px;
+    padding: 10px 30px;
     border: 1px solid #ff5722;
     background-color: #ff5722;
     color: white;
     cursor: pointer;
     font-size: 16px;
 }
-.join input{
+.join-1 input{
     padding: 10px 20px;
     flex: 1;
     border: 1px solid #ccc;
     border-right: none;
     font-size: 16px;
-    max-width: 600px;
+    width: 660px;
+
 }
 footer{
     display: flex;
@@ -194,8 +195,58 @@ footer p{
     height: 36px;
     margin: 0 20px;
 }
+    /* challenges style start 1*/
 
-@media screen and (max-width: 1200px) {
+    .challenges-1-main{
+        margin: 120px auto;
+        width: 75%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 200px;
+    }
+    .challenges1{
+        width: 50%;  
+        position: relative;
+    }
+    .challenges1 img{
+        width: 600px;
+        height: 600px;
+    }
+    .challenges1 .img{
+       position: absolute;
+       bottom: 71%;
+       left: 71%;
+       
+    }
+    .challenges1 .img img{
+        width: 300px;
+        height: 300px
+    }
+
+    .challenges-1{
+        width: 50%;
+    }
+    .challenges-1 h2{
+        font-weight: 700px;
+        font-size: 55px;
+        color: rgb(0, 0, 0);
+    }
+    .challenges-1 ul{
+       margin: 20px 20px;
+       width: 700px;
+    }
+    .challenges-1 ul li{
+         width: 100%;
+        font-size: 25px;
+        font-weight: 400px;
+        margin: 20px;
+        font-size: 22px;
+       color:rgb(118, 117, 125);
+    }
+     /* challenges style end 1*/
+
+@media screen and (max-width: 1140px) {
     nav ul span{
     display: flex;
     gap: 20px;
@@ -234,13 +285,16 @@ footer p{
    justify-content: center;
    align-items: center;
 }
-.join .join-1{
-    margin-top: 50px;
-    width: 450px;
+.join .join-1 button{
+    padding: 15px;
+}
+.join .join-1 input{
+    width: 180px;
+    padding: 15px;
 }
 .join h2{
-    width: 90%;
-    font-size: 35px;
+    width: 100%;
+    font-size: 38px;
 }
 footer{
     flex-direction: column;
