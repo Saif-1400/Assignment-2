@@ -120,7 +120,7 @@ nav ul li{
     line-height: 40px;
 }
 .card{
-    width: 100%;
+    /* width: 100%; */
     gap: 20px;
     display: grid;
     grid-row: center;
@@ -173,6 +173,27 @@ nav ul li{
     font-size: 16px;
     max-width: 600px;
 }
+footer{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 200px;
+}
+footer p{
+     color:rgb(137, 135, 161);
+     font-size: 22px;
+     font-weight: 400px;
+     margin-top: 20px;
+}
+.ul li{
+    list-style: none;
+    line-height: 60px;
+     color:rgb(137, 135, 161);
+}
+.img img{
+    width: 36px;
+    height: 36px;
+    margin: 0 20px;
+}
 
 @media screen and (max-width: 1200px) {
     nav ul span{
@@ -189,9 +210,6 @@ nav ul li{
 .banner-article{
    margin-left: 50px;
 }
-
-
-  
 }
 
 @media screen and (max-width: 658px) {
@@ -205,13 +223,8 @@ nav ul li{
    width: 100%;
 }
 .banner-article{
-    margin-top: 19px;
-    width: 100%;
-}
-.banner-article p{
-    margin-top: 13px 16px;
-    width: 660px;
-
+    margin-top: 0px;
+    width: 90%;
 }
 .plants-card{
     width: 100%;
@@ -229,5 +242,11 @@ nav ul li{
     width: 90%;
     font-size: 35px;
 }
-
+footer{
+    flex-direction: column;
+    margin: 50px 30px;
+}
+.img img{
+    margin-left: 0px;
+}
 }
