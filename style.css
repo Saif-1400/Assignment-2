@@ -126,6 +126,53 @@ nav ul li{
     grid-row: center;
     grid-template-columns: repeat(4, 1fr);
 }
+.join{
+    background-image: url("./assets/news-letter-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 50px auto;
+    height: 533px;
+    text-align: center;
+    margin-bottom: 100px;
+    position: relative;
+}
+.join .join-1{
+    position: absolute;
+    top: 53%;
+    left: 50%;
+   transform: translate(-50%, -50%);
+   display: flex;
+   align-items: center;
+   justify-content: center; 
+   margin: 50px auto;
+}
+.join h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+   transform: translate(-50%, -50%);
+    font-size: 50px;
+   font-weight: 700px;
+   color: rgb(255, 255, 255);
+}
+.join button{
+
+    padding: 10px 25px;
+    border: 1px solid #ff5722;
+    background-color: #ff5722;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+.join input{
+    padding: 10px 20px;
+    flex: 1;
+    border: 1px solid #ccc;
+    border-right: none;
+    font-size: 16px;
+    max-width: 600px;
+}
 
 @media screen and (max-width: 1200px) {
     nav ul span{
@@ -173,6 +220,14 @@ nav ul li{
     grid-template-columns: repeat(2, 1fr);
    justify-content: center;
    align-items: center;
+}
+.join .join-1{
+    margin-top: 50px;
+    width: 450px;
+}
+.join h2{
+    width: 90%;
+    font-size: 35px;
 }
 
 }
