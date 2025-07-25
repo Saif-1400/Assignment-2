@@ -245,6 +245,143 @@ footer p{
     }
      /* challenges style end 1*/
 
+ /* challenges style star 2*/
+ .challenges2{
+    width: 75%;
+    height: 800px;
+    margin: 30px auto;
+    text-align: center;
+    
+ }
+ .img1{
+   width: 50%; 
+  
+ }
+ .img1 .Lates-img1, .img1 .Lates-img2{
+    height: 238px;
+    width: 460px;
+    gap: 20px;
+ }
+ .img2 .Lates-img3{
+    height: 500px;
+    width: 780px;
+ }
+ 
+ .challenges2 h1{
+    font-size: 50px;
+    font-weight: 700px;
+   
+ }
+ .challenges2 p{
+    margin: 20px auto;
+    font-size: 20px;
+    font-weight: 400px;
+    width: 730px;
+     color:rgb(118, 117, 125);
+ }
+   .Lates-img1{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 600px;
+    height: 350px;
+    border-radius: 30px;
+      background-image: url("./assets/deal-bloom.png");
+
+   }
+   .Lates-img2{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 600px;
+    height: 350px;
+    border-radius: 30px;
+      background-image: url("./assets/deal-ana.png");
+
+   }
+   .Lates-img3{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 600px;
+    height: 350px;
+    border-radius: 30px;
+      background-image: url("./assets/deal-zabo.png");
+
+   }
+   .Lates{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+
+   }
+   
+   .Lates-img1 div,.Lates-img2 div{
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+   position: relative;
+   height: 100%;
+   padding: 0;
+   background-color: rgba(30, 22, 22, 0.3);
+   border-radius: 30px;
+   }
+   .Lates-img3 div{
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+   position: relative;
+   height: 100%;
+   padding: 0;
+   background-color: rgba(30, 22, 22, 0.3);
+   border-radius: 30px;
+   }
+   .Lates-img1 div h2, .Lates-img2 div h2{
+    font-size: 22px;
+   font-weight: 700px;
+   position: absolute;
+   padding-bottom: 10px;
+   color: rgb(255, 255, 255);
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   }
+   .Lates-img3 div h2{
+    font-size: 40px;
+   font-weight: 700px;
+   position: absolute;
+   padding-bottom: 40px;
+   letter-spacing: 1px;
+   color: rgb(255, 255, 255);
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   }
+   .Lates-img1 div p, .Lates-img2 div p{
+    font-size: 22px;
+   font-weight: 400px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: rgb(255, 255, 255);
+   border-bottom: 3px solid white;
+   width: 100px;
+   }
+   .Lates-img3 div p{
+    font-size: 23px;
+   font-weight: 400px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: rgb(255, 255, 255);
+   border-bottom: 3px solid white;
+   width: 100px;
+   }
+
+
+
+     /* challenges style end 2*/
+
      /* Responsive for desktop */
 
 @media screen and (max-width: 1280px){
@@ -290,6 +427,47 @@ footer p{
        color:rgb(118, 117, 125);
     }
 
+    .Lates{
+    width: 10px;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    align-items: center;
+    margin: auto;
+
+   }
+   .img1{
+    width: 50%;
+   }
+   .img2{
+    width: 50%;
+   }
+   .Lates .img3 img{
+    width: 10px;
+    
+   }
+   .Lates-img3{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60px;
+    height: 350px;
+    border-radius: 30px;
+    background-size: 100%;
+    background-position:center;
+    margin-right: 2030px;
+      background-image: url("./assets/deal-zabo.png");
+
+   }
+   .Lates-img3 div{
+    background-size: 100%;
+   position: relative;
+   height: 50%;
+   padding: 0;
+   margin-right: 500px;
+   background-color: rgba(30, 22, 22, 0.3);
+   border-radius: 30px;
+   }
     }
     
 
@@ -307,7 +485,7 @@ footer p{
 .banner-article{
     margin-top: 0px;
     width: 90%;
-    background-color: green;
+
 }
 .plants-card{
     width: 100%;
