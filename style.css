@@ -99,7 +99,7 @@ nav ul li{
     width: 100%;
 }
 .p{
-    font-weight: 700px;
+    font-weight: bold;
     color: rgb(17, 17, 17);
 }
 .btn{
@@ -116,7 +116,8 @@ nav ul li{
 .plants-card p{
     font-size: 22px;
     font-weight: 300px;
-    color: rgb(48, 48, 48);
+     color: rgb(17, 17, 17);
+    /* color: rgb(60, 60, 60); */
     line-height: 40px;
 }
 .card{
@@ -183,11 +184,11 @@ footer p{
      color:rgb(137, 135, 161);
      font-size: 22px;
      font-weight: 400px;
-     margin-top: 20px;
+     margin-top: 10px;
 }
 .ul li{
     list-style: none;
-    line-height: 60px;
+    line-height: 50px;
      color:rgb(137, 135, 161);
 }
 .img img{
@@ -203,7 +204,7 @@ footer p{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        gap: 200px;
+        gap: 160px;
     }
     .challenges1{
         width: 50%;  
@@ -234,11 +235,9 @@ footer p{
     }
     .challenges-1 ul{
        margin: 20px 20px;
-       width: 700px;
     }
     .challenges-1 ul li{
-         width: 100%;
-        font-size: 25px;
+        font-size: 22px;
         font-weight: 400px;
         margin: 20px;
         font-size: 22px;
@@ -246,24 +245,56 @@ footer p{
     }
      /* challenges style end 1*/
 
-@media screen and (max-width: 1140px) {
-    nav ul span{
-    display: flex;
-    gap: 20px;
-}
-.banner-img{
-   height: 355px;
-   width: 100%;
-}
-.banner{
-    width: 100%;
-}
-.banner-article{
-   margin-left: 50px;
-}
-}
+     /* Responsive for desktop */
 
-@media screen and (max-width: 658px) {
+@media screen and (max-width: 1280px){
+    
+    .card .plants-card{
+        width: 220px;
+        gap: 20px;
+    }
+    .challenges-1-main{
+        width: 75%;
+        display: flex;
+        gap: 100px;
+    }
+    .challenges1 img{
+        width: 450px;
+        height: 450px;
+    }
+    .challenges1{ 
+        width: 50%;
+        position: relative;
+    }
+    .challenges1 .img{ 
+        position: absolute;
+        left: 60%;
+        bottom: 66%;
+    }
+    .challenges-1 .img img{
+        width: 100%;
+        
+    }
+    .challenges-1{
+        /* width: 50%; */
+        }
+        .challenges-1 h2{
+            font-size: 45px;
+            font-weight: 700px;
+            margin-top: 40px;
+        }
+        .challenges-1 ul li{
+        font-size: 17.5px;
+        font-weight: 400px;
+        margin: 7px;
+       color:rgb(118, 117, 125);
+    }
+
+    }
+    
+
+    /* Responsive for Mobile */
+@media screen and (max-width: 640px) {
     nav ul span{
     display: none;
 }
@@ -276,6 +307,7 @@ footer p{
 .banner-article{
     margin-top: 0px;
     width: 90%;
+    background-color: green;
 }
 .plants-card{
     width: 100%;
@@ -303,4 +335,34 @@ footer{
 .img img{
     margin-left: 0px;
 }
+.challenges-1-main{
+    flex-direction: column;
+}
+.challenges1{
+    width: 100%;
+}
+.challenges1 img{
+        width: 100%;
+        height: 500px;
+    }
+    .challenges1 .img img{
+       display: none;
+    }
+    .challenges-1{
+        width: 100%;
+        margin-top: -130px;
+    }
+    .challenges-1 h2{
+        width: 100%;
+        font-size: 30px;
+    }
+    .challenges-1 ul{
+        width: 100%;
+    }
+    .challenges-1 ul li{
+        width: 100%;
+        font-size: 20px;
+        line-break: none;
+    }
+    
 }
